@@ -1,0 +1,99 @@
+html,
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    min-height: 180px;
+    padding: 0;
+    width: 384px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Oswald";
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    color: #000000;
+}
+
+a:link,
+a:visited {
+    color: #ecf0f1;
+    outline: 0;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #990000; /* USC Pantone */
+    border: none;
+    border-radius: 8px;
+    color: #000000;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 900;
+    margin: 5px 5px;
+}
+
+img {
+    width: 30px;
+}
+
+.modal-header {
+    background-color: #FFCC01;
+    align-items: center;
+    border-bottom: 0.5px solid #f1c40f;
+}
+
+#title{
+    color: #990000;
+}
+
+.modal-icons {
+    height: 50px;
+    width: 100%;
+}
+
+.logo {
+    padding: 16px;
+}
+
+.logo-icon {
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+
+.version {
+    color: #000000;
+    font-size: 14px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.flex {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+}
+
+.flex:hover {
+    opacity: 0.7;
+}
+
+.flex-footer {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#email{
+    color: #E0AD12;
+}
